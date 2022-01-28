@@ -7,3 +7,6 @@ plotly
 dash
 premailer
 jinja2
+rich
+requests
+requests[socks]

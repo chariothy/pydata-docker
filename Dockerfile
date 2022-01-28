@@ -23,13 +23,13 @@ ARG BUILDPLATFORM
 
 LABEL maintainer="chariothy" \
   org.opencontainers.image.created=$BUILD_DATE \
-  org.opencontainers.image.url="https://github.com/chariothy/scrapy-docker.git" \
-  org.opencontainers.image.source="https://github.com/chariothy/scrapy-docker.git" \
+  org.opencontainers.image.url="https://github.com/chariothy/pydata-docker.git" \
+  org.opencontainers.image.source="https://github.com/chariothy/pydata-docker.git" \
   org.opencontainers.image.version=$VERSION \
   org.opencontainers.image.revision=$VCS_REF \
   org.opencontainers.image.vendor="chariothy" \
-  org.opencontainers.image.title="scrapy" \
-  org.opencontainers.image.description="Docker for python with scrapy" \
+  org.opencontainers.image.title="pydata" \
+  org.opencontainers.image.description="Docker for python with data mine packages." \
   org.opencontainers.image.licenses="MIT"
 
 COPY --from=compile-env /root/.local /root/.local
