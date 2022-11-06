@@ -36,7 +36,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: get rep
         id: rep
-        run: echo "rep=$(echo $GITHUB_REPOSITORY | sed 's/-docker$//'" >> $GITHUB_ENV
+        run: echo "rep=$(echo $GITHUB_REPOSITORY | sed 's/-docker$//')" >> $GITHUB_ENV
 
       # Runs a single command using the runners shell
       - name: Install buildx
