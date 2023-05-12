@@ -1,10 +1,12 @@
 sqlalchemy
 mysql-connector-python
 sqlacodegen
+tables
 pandas
 numpy
-plotly
-dash
+pyecharts
+fastapi
+uvicorn[standard]
 premailer
 jinja2
 rich
