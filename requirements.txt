@@ -1,5 +1,6 @@
 sqlalchemy
 mysql-connector-python
+psycopg2
 sqlacodegen
 tables
 pandas
